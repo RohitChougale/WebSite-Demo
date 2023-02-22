@@ -1,0 +1,35 @@
+.main{
+  height: 70px;
+  position: fixed;
+  text-align: center;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 1;
+
+}
+.nav{
+  position:relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5px;
+
+}
+.logo{
+  margin-left:13% ;
+  font-size: 24px;
+    line-height: 52px;
+    color: #666;
+    font-weight: 300;
+}
+.links{
+  margin-right: 15%;
+}
+.links a{
+  text-decoration: none;
+    cursor: pointer;
+    margin: 25px;
+    color: black;
+}
